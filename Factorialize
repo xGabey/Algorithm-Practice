@@ -1,0 +1,10 @@
+// factorialize a number by calculating in JavaScript
+
+function factorialize(num) {
+  if (num == 0) {
+    return 1;
+  } else {
+      return (num * factorialize(n-1));
+}
+
+console.log(factorialize(5));
